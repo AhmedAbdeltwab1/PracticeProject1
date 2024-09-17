@@ -1,0 +1,39 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                               Test Method: 'TestPackage.TestClass.doAllTheCycle'                                               
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json". @17-09-2024 23:26:10.0969 PM
+[ReportManager] Successfully created attachment 'Test Data - JSON' @17-09-2024 23:26:10.0971 PM
+[ReportManager] Target URL: "https://www.saucedemo.com/" @17-09-2024 23:26:11.0006 PM
+[ReportManager] Initial URL: "about:blank" @17-09-2024 23:26:11.0038 PM
+[ReportManager] Navigate to url "https://www.saucedemo.com/". @17-09-2024 23:26:12.0211 PM
+[ReportManager] Text cleared Using Native Clear @17-09-2024 23:26:12.0660 PM
+[ReportManager] Type "standard_user" into "Username". @17-09-2024 23:26:12.0764 PM
+[ReportManager] Text cleared Using Native Clear @17-09-2024 23:26:12.0913 PM
+[ReportManager] Type "secret_sauce" into "Password". @17-09-2024 23:26:12.0968 PM
+[ReportManager] Moved the mouse to the middle of the element. @17-09-2024 23:26:13.0128 PM
+[ReportManager] Click "Login". @17-09-2024 23:26:13.0202 PM
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json". @17-09-2024 23:26:13.0212 PM
+[ReportManager] Successfully created attachment 'Test Data - JSON' @17-09-2024 23:26:13.0214 PM
+[ReportManager] Moved the mouse to the middle of the element. @17-09-2024 23:26:13.0432 PM
+[ReportManager] Click "Add to cart". @17-09-2024 23:26:13.0459 PM
+[ReportManager] Moved the mouse to the middle of the element. @17-09-2024 23:26:13.0603 PM
+[ReportManager] Click "Add to cart". @17-09-2024 23:26:13.0626 PM
+[ReportManager] Moved the mouse to the middle of the element. @17-09-2024 23:26:13.0772 PM
+[ReportManager] Click "Add to cart". @17-09-2024 23:26:13.0797 PM
+[ReportManager] Moved the mouse to the middle of the element. @17-09-2024 23:26:13.0944 PM
+[ReportManager] Click "Add to cart". @17-09-2024 23:26:13.0970 PM
+[ReportManager] Moved the mouse to the middle of the element. @17-09-2024 23:26:14.0111 PM
+[ReportManager] Click "By.id: shopping_cart_container". @17-09-2024 23:26:14.0145 PM
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json". @17-09-2024 23:26:14.0152 PM
+[ReportManager] Successfully created attachment 'Test Data - JSON' @17-09-2024 23:26:14.0155 PM
+[ReportManager] Expected condition failed: waiting for com.shaft.gui.element.internal.ElementActionsHelper$$Lambda/0x0000022c016f73c8@54aacbc7 (tried for 60 second(s) with 100 milliseconds interval) || no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Sauce Labs Bike Light']/ancestor::div[@class='inventory_item']//button[text()='Remove']"} @17-09-2024 23:27:14.0222 PM
+[ReportManager] Failed to Identify unique element. @17-09-2024 23:27:15.0010 PM
+[ReportManager] Successfully created attachment 'Screenshot - Identify unique element_23-27-14-990_17092024' @17-09-2024 23:27:15.0011 PM
+[ReportManager] Successfully created attachment 'Identify unique element - page snapshot' @17-09-2024 23:27:15.0012 PM
+[ReportManager] Failed to Click "By.xpath: //div[text()='Sauce Labs Bike Light']/ancestor::div[@class='inventory_item']//button[text()='Remove']". Root cause: "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Sauce Labs Bike Light']/ancestor::div[@class='inventory_item']//button[text()='Remove']"}" @17-09-2024 23:27:15.0356 PM
+[ReportManager] Successfully created attachment 'Screenshot - Click_23-27-15-344_17092024' @17-09-2024 23:27:15.0357 PM
+[ReportManager] Successfully created attachment 'Click - page snapshot' @17-09-2024 23:27:15.0358 PM
+[ReportManager] Successfully created attachment 'Element Action Exception - Click - Stacktrace' @17-09-2024 23:27:15.0359 PM
