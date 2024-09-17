@@ -16,7 +16,7 @@ public class Cart extends Page{
     @Step("Remove Product")
     public Cart removeProduct(String nameOfProduct){
         System.out.println("//div[text()='"+nameOfProduct+"']/ancestor::div[@class='inventory_item']//button[text()='Remove']");
-        driver.element().click(By.xpath("//div[text()='"+nameOfProduct+"']/ancestor::div[@class='inventory_item']//button[text()='Remove']"));
+        driver.element().click(By.xpath("//div[text()='"+nameOfProduct+"']/ancestor::div[@class='cart_item']//button[text()='Remove']"));
 
         return this;
     }
