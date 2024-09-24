@@ -14,8 +14,8 @@ import pages.Home;
 public class TestClass extends AbstractTestCases{
 
     @Test
-    public void doAllTheCycle(){
-    new Home(driver)
+    public void doAllTheCycle1(){
+    new Home(driver.get())
             .navigate()
             .logIn()
             .addProduct("Sauce Labs Backpack")
@@ -32,6 +32,90 @@ public class TestClass extends AbstractTestCases{
             .goToCheckoutOverviewPAge()
             .complete()
             .checkCompleteCycle();
+
+    }
+    @Test
+    public void doAllTheCycle2(){
+        new Home(driver.get())
+                .navigate()
+                .logIn()
+                .addProduct("Sauce Labs Backpack")
+                .addProduct("Sauce Labs Bike Light")
+                .addProduct("Sauce Labs Bolt T-Shirt")
+                .addProduct("Sauce Labs Fleece Jacket")
+                .goToCartPage()
+                .removeProduct("Sauce Labs Bike Light")
+                .continueShopping()
+                .addProduct("Test.allTheThings() T-Shirt (Red)")
+                .goToCartPage()
+                .goToCheckoutPAge()
+                .addTheCustomerDetails("Ahmed","Abdeltwab","12566")
+                .goToCheckoutOverviewPAge()
+                .complete()
+                .checkCompleteCycle();
+
+    }
+    @Test
+    public void doAllTheCycle3(){
+        new Home(driver.get())
+                .navigate()
+                .logIn()
+                .addProduct("Sauce Labs Backpack")
+                .addProduct("Sauce Labs Bike Light")
+                .addProduct("Sauce Labs Bolt T-Shirt")
+                .addProduct("Sauce Labs Fleece Jacket")
+                .goToCartPage()
+                .removeProduct("Sauce Labs Bike Light")
+                .continueShopping()
+                .addProduct("Test.allTheThings() T-Shirt (Red)")
+                .goToCartPage()
+                .goToCheckoutPAge()
+                .addTheCustomerDetails("Ahmed","Abdeltwab","12566")
+                .goToCheckoutOverviewPAge()
+                .complete()
+                .checkCompleteCycle();
+
+    }
+    @Test
+    public void doAllTheCycle4(){
+        new Home(driver.get())
+                .navigate()
+                .logIn()
+                .addProduct("Sauce Labs Backpack")
+                .addProduct("Sauce Labs Bike Light")
+                .addProduct("Sauce Labs Bolt T-Shirt")
+                .addProduct("Sauce Labs Fleece Jacket")
+                .goToCartPage()
+                .removeProduct("Sauce Labs Bike Light")
+                .continueShopping()
+                .addProduct("Test.allTheThings() T-Shirt (Red)")
+                .goToCartPage()
+                .goToCheckoutPAge()
+                .addTheCustomerDetails("Ahmed","Abdeltwab","12566")
+                .goToCheckoutOverviewPAge()
+                .complete()
+                .checkCompleteCycle();
+
+    }
+    @Test
+    public void doAllTheCycle5(){
+        new Home(driver.get())
+                .navigate()
+                .logIn()
+                .addProduct("Sauce Labs Backpack")
+                .addProduct("Sauce Labs Bike Light")
+                .addProduct("Sauce Labs Bolt T-Shirt")
+                .addProduct("Sauce Labs Fleece Jacket")
+                .goToCartPage()
+                .removeProduct("Sauce Labs Bike Light")
+                .continueShopping()
+                .addProduct("Test.allTheThings() T-Shirt (Red)")
+                .goToCartPage()
+                .goToCheckoutPAge()
+                .addTheCustomerDetails("Ahmed","Abdeltwab","12566")
+                .goToCheckoutOverviewPAge()
+                .complete()
+                .checkCompleteCycle();
 
     }
 
