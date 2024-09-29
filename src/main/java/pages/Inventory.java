@@ -13,8 +13,6 @@ public class Inventory extends Page{
     }
     @Step("Add The Products")
     public Inventory addProduct(String nameOfProduct){
-        System.out.println("//div[text()=\"Sauce Labs Backpack\"]/ancestor::div[@class='inventory_item']//button[text()='Add to cart']");
-        System.out.println("//div[text()='"+nameOfProduct+"']/ancestor::div[@class='inventory_item']//button[text()='Add to cart']");
         driver.element().click(By.xpath("//div[text()='"+nameOfProduct+"']/ancestor::div[@class='inventory_item']//button[text()='Add to cart']"));
         return this;
     }
